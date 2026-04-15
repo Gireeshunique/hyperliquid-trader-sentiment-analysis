@@ -1,177 +1,71 @@
-# 📊 Hyperliquid Trader Sentiment Analysis
+# 📊 Hyperliquid Trader Behavior Analysis
 
-## 📌 Overview
+## 📌 Objective
 
-This project analyzes how **market sentiment (Fear vs Greed)** impacts trader behavior and performance on Hyperliquid.
-It combines sentiment data with trading activity to uncover patterns and build smarter trading strategies.
-
----
-
-## 🎯 Objective
-
-* Understand relationship between sentiment and trader performance
-* Analyze behavioral changes under different market conditions
-* Build predictive models for profitability
-* Provide actionable trading strategies
+Analyze how market sentiment (Fear/Greed) impacts trader behavior and performance on Hyperliquid.
 
 ---
-![Image Name](https://github.com/Gireeshunique/hyperliquid-trader-sentiment-analysis/blob/b06a12ed7b62a0e764d0113a7c0bdfa32ae6be70/Screenshot%202026-04-15%20201547.png)
-![Image Name](https://github.com/Gireeshunique/hyperliquid-trader-sentiment-analysis/blob/b06a12ed7b62a0e764d0113a7c0bdfa32ae6be70/Screenshot%202026-04-15%20201629.png)
-
 
 ## 📂 Dataset
 
-1. Bitcoin Fear/Greed Index
-2. Hyperliquid Historical Trader Data
+* Bitcoin Fear/Greed Index
+* Hyperliquid Historical Trader Data
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Setup Instructions
 
-* Python
-* Pandas, NumPy
-* Seaborn, Matplotlib
-* Scikit-learn
-* Streamlit
+### 1. Clone repo
 
----
-
-## 🔄 Workflow
-
-### 1. Data Preparation
-
-* Cleaned missing values and duplicates
-* Converted timestamps to daily level
-* Merged sentiment with trading data
-
-### 2. Feature Engineering
-
-* Daily PnL per trader
-* Win rate
-* Trade frequency
-* Position size (risk proxy)
-* Long/short ratio
-
----
-
-## 📊 Analysis & Insights
-
-### 📈 Performance vs Sentiment
-
-* Greed → higher average PnL but higher volatility
-* Fear → lower returns but more stability
-
-### 🔄 Behavioral Patterns
-
-* Traders take larger positions during Greed
-* Trade frequency increases during Fear
-
-### 🧠 Trader Segmentation
-
-* High-risk traders → high variance returns
-* Frequent traders → lower profitability (overtrading)
-* Consistent traders → stable performance
-
----
-
-## 💡 Strategy Recommendations
-
-### ✅ Strategy 1 — Sentiment-Based Risk Control
-
-* Fear → reduce position size, avoid overtrading
-* Greed → control risk, avoid excessive exposure
-
-### ✅ Strategy 2 — Behavioral Optimization
-
-* Reduce overtrading for frequent traders
-* Focus on high-quality trades
-
----
-
-## 🤖 Machine Learning Model
-
-* Model: Random Forest Classifier
-* Accuracy: ~65–70%
-* Features:
-
-  * Position size
-  * Sentiment
-  * Trade frequency
-
-👉 Insight: Profitability is influenced by both market sentiment and trader behavior
-
----
-
-## 📊 Dashboard
-
-A Streamlit dashboard is included to:
-
-* Visualize sentiment vs performance
-* Explore trader behavior
-* View key metrics interactively
-
----
-
-## ▶️ How to Run
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/Gireeshunique/hyperliquid-trader-sentiment-analysis.git
-cd hyperliquid-trader-sentiment-analysis
+```
+git clone https://github.com/Gireeshunique/hyperliquid-trader-sentiment-analysis/tree/main
+cd Hyperliquid-Analysis
 ```
 
-### 2. Install Dependencies
+### 2. Install dependencies
 
-```bash
+```
 pip install pandas numpy seaborn matplotlib scikit-learn streamlit
 ```
 
-### 3. Run Notebook
+---
+
+## ▶️ Run Notebook
 
 Open:
 
-```bash
+```
 notebook.ipynb
 ```
 
-### 4. Run Dashboard
+---
 
-```bash
+## 🚀 Run Dashboard
+
+```
 streamlit run app.py
 ```
 
 ---
 
-## 📁 Project Structure
+## 📊 Features
 
-```
-hyperliquid-trader-sentiment-analysis/
-│
-├── notebook.ipynb
-├── app.py
-├── merged.csv
-├── README.md
-├── report.md
-└── images/
-```
+* Sentiment vs PnL analysis
+* Trader segmentation
+* Predictive modeling
+* Interactive dashboard
 
 ---
 
-## 📌 Key Takeaway
+## 📈 Key Insights
 
-Combining **market sentiment + trader behavior** provides powerful insights to improve trading performance and risk management.
-
----
-
-## 🚀 Future Improvements
-
-* Add time-series prediction (next-day PnL)
-* Deploy dashboard online
-* Enhance feature engineering
-* Real-time data integration
+* Greed → higher returns but higher risk
+* Fear → more trades, lower profitability
+* Overtrading reduces performance
 
 ---
 
+## 💡 Strategies
 
-Your Name
+* Reduce risk during Fear
+* Avoid overtrading
