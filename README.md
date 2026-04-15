@@ -15,7 +15,7 @@ It combines sentiment data with trading activity to uncover patterns and build s
 * Provide actionable trading strategies
 
 ---
-[▶️ Watch Demo](https://your-youtube-link)
+[▶️ Watch Demo](https://github.com/Gireeshunique/hyperliquid-trader-sentiment-analysis/blob/dc399fc46ca9f2aa496024890b61b16dbe0d9a8d/streamlit-app-2026-04-15-19-04-80.webm)
 
 ## 📂 Dataset
 
