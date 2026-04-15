@@ -114,7 +114,7 @@ A Streamlit dashboard is included to:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/hyperliquid-trader-sentiment-analysis.git
+git clone https://github.com/Gireeshunique/hyperliquid-trader-sentiment-analysis.git
 cd hyperliquid-trader-sentiment-analysis
 ```
 
