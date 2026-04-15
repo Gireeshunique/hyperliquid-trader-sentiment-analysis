@@ -15,6 +15,7 @@ It combines sentiment data with trading activity to uncover patterns and build s
 * Provide actionable trading strategies
 
 ---
+[▶️ Watch Demo](https://your-youtube-link)
 
 ## 📂 Dataset
 
